@@ -12,6 +12,11 @@ h2 {
 	font-size: calc(1.3rem + .6vw);
 }
 
+.carousel-item img {
+	width: 100%;
+	height: auto;
+}
+
 /* Perso */
 
 body {
@@ -57,6 +62,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: auto;
 }
 
 #about {
@@ -86,7 +92,7 @@ body {
 
 .picture img {
 	width: 100%;
-
+	height: auto;
 }
 #about-me {
 	flex: 2
