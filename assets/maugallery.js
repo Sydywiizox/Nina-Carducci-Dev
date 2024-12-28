@@ -62,7 +62,7 @@
                 return;
             }
         });
-        // Accessibilité image clavier
+        // Accessibilité images clavier
         $(".gallery-item").on("keydown", function (event) {
             if (
                 event.key === "Enter" &&
@@ -80,7 +80,7 @@
             ".nav-link",
             $.fn.mauGallery.methods.filterByTag
         );
-        // Accessibilité menu clavier
+        // Accessibilité tags clavier
         $(".gallery").on("keydown", ".nav-link", function(event) {
           if (event.key === "Enter") {
             $.fn.mauGallery.methods.filterByTag.call(this);
